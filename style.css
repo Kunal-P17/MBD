@@ -8,7 +8,7 @@
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -20,6 +20,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* width: 100%; */
 }
 
 #welcomeDiv {
@@ -51,7 +52,7 @@ header {
   list-style: none;
   justify-content: space-between;
   align-items: center;
-  width: 6%;
+  /* width: 6%; */
   font-size: 12px;
 }
 
@@ -65,7 +66,7 @@ header {
 #logo {
   display: flex;
   justify-content: center;
-  width: 150%;
+  width: 170%;
   /* border: 1px solid; */
   align-items: center;
 }
@@ -73,6 +74,7 @@ header {
 #logo h1 {
   font-size: 40px;
   font-weight: 700;
+  margin: 0;
 }
 
 #logoName input {
@@ -137,12 +139,13 @@ marquee {
   background-color: #7c9731;
   color: white;
   font-size: 12px;
+  width: 100%;
 }
 
 /* Hero */
 
 .hero img {
-  height: 600px;
+  /* height: 600px; */
 }
 
 .abtuss {
@@ -162,6 +165,7 @@ marquee {
 
 #abtusimg img {
   position: absolute;
+  width: 25vw;
 }
 
 #img1 {
@@ -397,6 +401,7 @@ marquee {
 
 #kyb {
     /* border: 1px solid; */
+    width: 100%;
     height: 595px;
     background-image:linear-gradient(0deg,rgba(0,0,0,0.8),rgba(0,0,0,0)), url("./assets/readMore/Mask group.png");
     filter:drop-shadow(5px 5px 10px black);
@@ -446,7 +451,7 @@ marquee {
 }
 
 #rm2 {
-    background-image: url("./assets/readMore//Rectangle 60.png");
+    background-image: url("./assets/readMore/Group 30.png");
     filter:drop-shadow(5px 5px 10px black);
     background-size: cover;
     width: 557px;
@@ -471,7 +476,7 @@ marquee {
 }
 
 #rm3 {
-    background-image: url("./assets/readMore/Rectangle 61.png");
+    background-image: url("./assets/readMore/Group\ 31.png");
     filter:drop-shadow(5px 5px 10px black);
     background-size: cover;
     width: 557px;
@@ -585,14 +590,16 @@ marquee {
     display: flex;
     padding: 0rem 3rem 3rem 3rem;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
 }
 
 #f21 {
+    margin-top: 60px;
     color: white;
 }
 
 #f22 {
+    margin-top: 60px;
     color: white;
     list-style: none;
 }

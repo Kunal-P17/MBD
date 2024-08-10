@@ -1,0 +1,117 @@
+@media screen and (max-width:425px) {
+    
+}
+
+@media screen and (max-width:768px) {
+    
+    #welcomeText {
+        font-size: 10px !important;
+        font-weight: 400;
+    }
+
+    #mailSchedule {
+        font-size: 10px !important;
+    }
+
+    #mailSchedule img {
+        height: 15px;
+    }
+
+    #socials img{
+        height: 15px !important;
+        margin: 4px !important;
+    }
+
+    #logoName input {
+        width: 10rem;
+    }
+
+    #logo h1 {
+        font-size: 25px !important;
+        margin: 0;
+    }
+
+    #navbar a {
+        font-size: 11px !important;
+        /* font-weight: 600; */
+    }
+
+    #abtustxt p {
+        font-size: 10px !important;
+    }
+
+    #abtusimg {
+        height: 340px !important;
+    }
+
+}
+
+@media screen and (max-width:1024px) {
+    
+    #socials img{
+        margin: 4px;
+    }
+    #logo h1 {
+        font-size: 29px;
+        margin: 0;
+    }
+
+    .dropdown-menu li a {
+        font-size: 10px !important;
+    }
+
+    #abtusimg {
+        height: 400px !important;
+    }
+    #abtustxt p {
+        font-size: 15px !important;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    #socials img{
+        margin: 10px;
+        height: 18px;
+    }
+
+    
+}
+
+@media screen and (min-width:1441px) {
+    #navbar a {
+    }
+    .dropdown-menu li a {
+        font-size: 10px !important;
+    }
+
+    #logoName input {
+        width: 20rem;
+    }
+
+    #logo h1 {
+        font-size: 40px;
+        margin: 0;
+    }
+
+    #welcomeText {
+        font-size: 12px !important;
+        font-weight: 400;
+    }
+
+    #mailSchedule {
+        font-size: 10px;
+    }
+
+    #mailSchedule img {
+        height: 25px;
+    }
+
+    #socials img{
+        margin: 10px;
+        height: 15px;
+    }
+
+    #abtusimg {
+        height: 600px !important;
+    }
+}
