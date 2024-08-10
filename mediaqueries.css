@@ -68,16 +68,8 @@
     }
 }
 
+
 @media screen and (max-width:1440px) {
-    #socials img{
-        margin: 10px;
-        height: 18px;
-    }
-
-    
-}
-
-@media screen and (min-width:1441px) {
     #navbar a {
     }
     .dropdown-menu li a {
@@ -89,7 +81,7 @@
     }
 
     #logo h1 {
-        font-size: 40px;
+        font-size: 35px;
         margin: 0;
     }
 
