@@ -360,6 +360,7 @@ marquee {
   padding: 62px 0;
   border-radius: 10px;
   /* margin-left: 80px; */
+  animation: smoothShow 300ms ease;
   transition: all 300ms ease;
   opacity: 1;
 }
@@ -827,4 +828,17 @@ h1 {
 #f22 li {
   font-size: 20px;
   font-weight: 400;
+}
+
+/* ANimations */
+
+@keyframes smoothShow {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+  
 }
