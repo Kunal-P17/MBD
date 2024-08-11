@@ -1,4 +1,4 @@
-@media screen and (max-width:425px) {
+/* @media screen and (max-width:425px) {
     
 }
 
@@ -31,11 +31,6 @@
         margin: 0;
     }
 
-    #navbar a {
-        font-size: 11px !important;
-        /* font-weight: 600; */
-    }
-
     #abtustxt p {
         font-size: 10px !important;
     }
@@ -44,8 +39,8 @@
         height: 340px !important;
     }
 
-}
-
+} */
+/* 
 @media screen and (max-width:1024px) {
     
     #socials img{
@@ -66,15 +61,13 @@
     #abtustxt p {
         font-size: 15px !important;
     }
-}
+} */
 
 
-@media screen and (max-width:1440px) {
+@media screen and (min-width:1440px) {
     #navbar a {
     }
-    .dropdown-menu li a {
-        font-size: 10px !important;
-    }
+    
 
     #logoName input {
         width: 20rem;
