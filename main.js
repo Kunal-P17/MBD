@@ -15,15 +15,17 @@ productContainers.forEach((item, i) => {
     })
 })
 
-document.querySelector("#ani").addEventListener("click", function() {
+document.querySelector("#ani").addEventListener("mouseover", function() {
     document.querySelector("#animal").style.display = "flex";
+    document.querySelector("#butterfly").style.opacity = 1;
+    
 });
 
 document.querySelector("#ani").addEventListener("mouseleave", function() {
     document.querySelector("#animal").style.display = "none";
 });
 
-document.querySelector("#bir").addEventListener("click", function() {
+document.querySelector("#bir").addEventListener("mouseover", function() {
     document.querySelector("#bird").style.display = "flex";
 });
 
@@ -31,15 +33,16 @@ document.querySelector("#bir").addEventListener("mouseleave", function() {
     document.querySelector("#bird").style.display = "none";
 });
 
-document.querySelector("#but").addEventListener("click", function() {
+document.querySelector("#but").addEventListener("mouseover", function() {
     document.querySelector("#butterfly").style.display = "flex";
+    
 });
 
 document.querySelector("#but").addEventListener("mouseleave", function() {
     document.querySelector("#butterfly").style.display = "none";
 });
 
-document.querySelector("#fis").addEventListener("click", function() {
+document.querySelector("#fis").addEventListener("mouseover", function() {
     document.querySelector("#fish").style.display = "flex";
 });
 
@@ -47,7 +50,7 @@ document.querySelector("#fis").addEventListener("mouseleave", function() {
     document.querySelector("#fish").style.display = "none";
 });
 
-document.querySelector("#flo").addEventListener("click", function() {
+document.querySelector("#flo").addEventListener("mouseover", function() {
     document.querySelector("#flower").style.display = "flex";
 });
 
@@ -55,7 +58,7 @@ document.querySelector("#flo").addEventListener("mouseleave", function() {
     document.querySelector("#flower").style.display = "none";
 });
 
-document.querySelector("#tre").addEventListener("click", function() {
+document.querySelector("#tre").addEventListener("mouseover", function() {
     document.querySelector("#tree").style.display = "flex";
 });
 

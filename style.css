@@ -348,6 +348,8 @@ marquee {
 }
 
 .sevendesc {
+  position: absolute;
+  right: 0;
   display: flex;
   flex-direction: column;
   width: 660px;
@@ -359,6 +361,7 @@ marquee {
   border-radius: 10px;
   /* margin-left: 80px; */
   transition: all 300ms ease;
+  opacity: 1;
 }
 
 .sevendesc h1 {
@@ -392,10 +395,9 @@ marquee {
   display: none;
 }
 
-/* #sevenlogo:hover + #animal {
-  display: flex;
-  transition: all 300ms ease;
-} */
+#ani:hover > #abtustxt {
+  display: none;
+}
 
 .areas {
   position: absolute;
@@ -410,27 +412,28 @@ marquee {
   width: 100px;
   height: 55px;
   top: 170px;
-  left:190px
+  left:230px;
+
 }
 
 #bir {
   width: 120px;
   height: 120px;
-  left: 390px;
+  left: 430px;
   top: 170px;
 }
 
 #but {
   width: 60px;
   height: 60px;
-  left: 320px;
+  left: 360px;
   top: 260px;
 }
 
 #fis {
   width:45px;
   height: 30px;
-  left: 460px;
+  left: 500px;
   top: 309px;
 }
 
@@ -439,25 +442,32 @@ marquee {
   height: 50px;
   transform: rotate(40deg);
   top: 400px;
-  left: 170px;
+  left: 210px;
 }
 
 #tre {
   width: 80px;
   height: 80px;
   top: 450px;
-  left: 288px;
+  left: 328px;
 }
 
 #ins {
   position: absolute;
   top: 30px;
-  left: 140px;
+  left: 180px;
   text-align: center;
   display: block;
   width: 400px;
   font-weight: 500;
 }
+
+#msbb {
+  font-size: 30px;
+  font-weight: 500;
+  margin-right:10px;
+}
+
 /* ACTIVITY */
 
 .activity {
@@ -594,8 +604,8 @@ h1 {
   width: 100%;
   height: 595px;
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
-    url("./assets/readMore/Mask group.png");
-  filter: drop-shadow(5px 5px 10px black);
+    url("./assets/readMore/image 28.png");
+  /* filter: drop-shadow(5px 5px 10px black); */
   background-repeat: no-repeat;
   /* background-position: center; */
   background-size: cover;
@@ -642,8 +652,8 @@ h1 {
 }
 
 #rm2 {
-  background-image: url("./assets/readMore/Group 30.png");
-  filter: drop-shadow(5px 5px 10px black);
+  /* background-image: url("./assets/readMore/Rectangle\ 62.png"); */
+  /*filter: drop-shadow(5px 5px 10px black);*/
   background-size: cover;
   width: 557px;
   height: 477px;
@@ -651,12 +661,18 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(
+    0deg,
+    rgba(225, 225, 225, 0.6),
+    rgba(225, 225, 225, 0.6)
+  );
 }
 
 #rm2 p {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
-  color: white;
+  color: black;
+  margin-bottom: 1px;
 }
 
 #rm2 h1 {
@@ -666,8 +682,8 @@ h1 {
 }
 
 #rm3 {
-  background-image: url("./assets/readMore/Group\ 31.png");
-  filter: drop-shadow(5px 5px 10px black);
+  /* background-image: url("./assets/readMore/Rectangle\ 62.png"); */
+  /*filter: drop-shadow(5px 5px 10px black);*/
   background-size: cover;
   width: 557px;
   height: 477px;
@@ -675,12 +691,19 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(
+    0deg,
+    rgba(225, 225, 225, 0.6),
+    rgba(225, 225, 225, 0.6)
+  );
 }
 
 #rm3 p {
-  font-size: 16px;
+  
+  font-size: 20px;
   font-weight: 400;
-  color: white;
+  color: black;
+  margin-bottom: 1px;
 }
 
 #rm3 h1 {
@@ -689,17 +712,22 @@ h1 {
   margin: 0;
 }
 
+#rm2 img{
+  margin: 10px;
+}
+
+#rm3 img{
+  margin: 10px;
+}
+
+
 .rmc {
-  width: 320px;
+  width: 500px;
   height: 103px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(
-    0deg,
-    rgba(225, 225, 225, 0.6),
-    rgba(225, 225, 225, 0.6)
-  );
+  text-align: center;
 }
 
 /* FOOTER */
