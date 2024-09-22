@@ -1,0 +1,378 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@font-face {
+  font-family: "AMS Anaram2";
+  src: url("/fonts/AMS Anaram2 Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    /* overflow: auto; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+}
+
+/* .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+    max-width: 1200px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+} */
+
+/* .image-container {
+    position: relative;
+    width: 45%; 
+    height: auto;
+}
+.image-container1 {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.img1, .img2, .img3, .img4,.img5,.img6, .img7, .img8, .img10, .img9 {
+    position: absolute;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} */
+/* 
+.img{
+    width: 481px; 
+    height: 351px; 
+}
+
+
+.img1 {
+    z-index: 1;
+    width: 428px;
+    height: 327px; 
+    top: 25px;
+    left: 20px;
+}
+
+
+.img2 {
+    z-index: 2;
+    width: 425px;
+    height: 338px;
+    top: 0px;
+    left: 0px;
+}
+
+
+.img3 {
+    z-index: 3;
+    width: 366px;
+    height: 355px;
+    top: 200px;
+    left: 165px;
+}
+
+
+.img4 {
+    z-index: 4;
+    width: 367px;
+    height: 367px;
+    top: 220px;
+    left: 185px;
+}
+.img5 {
+    z-index: 1;
+    width: 397px;
+    height: 377px;
+    top: 940px;
+    left: 755px;
+}
+.img6 {
+    z-index: 2;
+    width: 397px;
+    height: 377px;
+    top: 960px;
+    left: 775px;
+} */
+
+/* .img7 {
+    z-index: 1;
+    width: 448px; 
+    height: 347px; 
+    top: 30px;
+    left:0px;
+}
+
+
+.img8 {
+    z-index: 2;
+    width: 445px;
+    height: 358px;
+    top: 52px;
+    left: 20px;
+}
+
+.img9 {
+    z-index: 1;
+    width: 428px;
+    height: 327px; 
+    top: 15px;
+    left: 0px;
+}
+
+
+.img10 {
+    z-index: 2;
+    width: 425px;
+    height: 338px;
+    top: 35px;
+    left: 20px;
+}
+
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.text-container {
+    width: 50%;
+    padding-left: 220px;
+    padding-right: 20px;
+    align-self: flex-start;
+}
+.text-container3 {
+    width: 50%;
+    padding-left: 520px;
+    padding-right: 20px;
+    align-self: flex-start;
+}
+.text-container2 {
+    width: 50%;
+    padding-right: 0px;
+}*/
+
+h1 {
+    font-size: 2rem;
+    color: #4b4b4b;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1rem;
+    color: #4b4b4b;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* .read-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.read-more:hover {
+    background-color: #45a049;
+} */
+
+/* HEADER */
+
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* width: 100%; */
+}
+
+#welcomeDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 5px 20px;
+  border-bottom: 1px solid #7c9731;
+}
+
+#welcomeText {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+#mailSchedule {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid; */
+  width: 40%;
+  font-size: 12px;
+}
+
+#socials {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 6%; */
+  font-size: 12px;
+}
+
+#logoName {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid #7c9731;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  width: 170%;
+  /* border: 1px solid; */
+  align-items: center;
+}
+
+#logo h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+}
+
+#marathiFont {
+  font-family: "AMS Anaram2", sans-serif;
+  padding-top: 10px;
+}
+
+#logoName input {
+  width: 300px;
+  height: 33px;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px 0px 0px 5px;
+}
+
+#logoName span {
+  height: 33px;
+  border-left: none;
+  background: white;
+  cursor: pointer;
+}
+
+.searchbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#navbar {
+  border-bottom: 1px solid #7c9731;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainnav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#navbar a {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0;
+}
+
+.divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #bebbbb;
+  padding: 0 15px;
+  margin: 7px 0;
+  /* height: 30px; */
+  justify-self: center;
+  align-self: center;
+}
+
+.divider a:hover {
+  color: #7c9731 !important;
+}
+
+.divider:last-child {
+  border: none;
+}
+
+.dropdown-menu {
+  display: none;
+  margin-top: 10px !important;
+}
+
+.dropdown-menu li a {
+  font-size: 15px !important;
+  padding: 0 20px !important;
+  margin-top: 0.225rem;
+}
+
+.dropend:hover > .dropdown-menu {
+  display: block;
+  margin-top: 0.125rem;
+}
+
+.dropend:hover > .dropdown-menu {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  margin-left: 0.125rem;
+}
+
+.ddmenu li a {
+  font-size: 15px;
+  text-align: center;
+}
+
+marquee {
+  background-color: #7c9731;
+  color: white;
+  font-size: 12px;
+  width: 100%;
+}
+
+/* Intro */
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin: 0 30px;
+}
