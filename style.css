@@ -404,7 +404,7 @@ marquee {
   position: absolute;
   height: 20px;
   width: 20px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   top: 0;
   left: 0;
 }
