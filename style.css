@@ -279,7 +279,7 @@ marquee {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 349px;
+  /* height: 349px; */
   width: 100%;
   /* border: 1px solid; */
   /* background-color: black; */
@@ -356,7 +356,7 @@ marquee {
   justify-content: center;
   align-items: center;
   /* border: 1px solid; */
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   padding: 62px 0;
   border-radius: 10px;
   /* margin-left: 80px; */
@@ -413,8 +413,7 @@ marquee {
   width: 100px;
   height: 55px;
   top: 170px;
-  left:230px;
-
+  left: 230px;
 }
 
 #bir {
@@ -432,7 +431,7 @@ marquee {
 }
 
 #fis {
-  width:45px;
+  width: 45px;
   height: 30px;
   left: 500px;
   top: 309px;
@@ -466,7 +465,7 @@ marquee {
 #msbb {
   font-size: 30px;
   font-weight: 500;
-  margin-right:10px;
+  margin-right: 10px;
 }
 
 /* ACTIVITY */
@@ -700,7 +699,6 @@ h1 {
 }
 
 #rm3 p {
-  
   font-size: 20px;
   font-weight: 400;
   color: black;
@@ -713,14 +711,13 @@ h1 {
   margin: 0;
 }
 
-#rm2 img{
+#rm2 img {
   margin: 10px;
 }
 
-#rm3 img{
+#rm3 img {
   margin: 10px;
 }
-
 
 .rmc {
   width: 500px;
@@ -840,5 +837,4 @@ h1 {
   to {
     opacity: 1;
   }
-  
 }
