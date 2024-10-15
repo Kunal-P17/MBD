@@ -79,7 +79,7 @@ function updateRunner() {
 }
 
 // Start the digit runner
-updateRunner();
+
 
 let countt = 0.0;
 const runner1 = document.getElementById("percentcounter");
@@ -94,7 +94,7 @@ function updateRunnerr() {
 }
 
 // Start the digit runner
-updateRunnerr();
+
 
 let counttt = 0;
 const runner2 = document.getElementById('tigpop');
@@ -108,7 +108,7 @@ const runner2 = document.getElementById('tigpop');
     }
 
     // Start the digit runner
-    updateRunnerrr();
+    
 
 let countttt = 0;
 const runner3 = document.getElementById('agriland');
@@ -122,7 +122,24 @@ const runner3 = document.getElementById('agriland');
     }
 
 // Start the digit runner
-updateRunnerrrr();
+
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+
+            updateRunner();
+            updateRunnerr();
+            updateRunnerrr();
+            updateRunnerrrr();
+            observer.unobserve(entry.target); // Stop observing if you only want it to trigger once
+        }
+    });
+}, { threshold: 0.5 }); // Trigger when 50% of the div is visible
+
+// Target the specific div you want to observe
+const targetDiv = document.getElementById('triggerDiv');
+observer.observe(targetDiv);
 // const counts = document.querySelectorAll('.count')
 // const speed = 97
 
